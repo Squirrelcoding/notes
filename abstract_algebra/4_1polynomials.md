@@ -5,6 +5,7 @@ Polynomials have been studied four thousands of years. They are pretty cool.
 ## Indeterminate
 
 If $R$ is any ring, a symbol $x$ is called an indeterminate over $R$ if
+
 $$
 a_0 + a_1 x + a_2 x^2 + \cdots + a_n x^n = 0 \space \text{ implies } \space a_0 = 0 \space a_i = 0 \text{ for each } i.
 $$.
