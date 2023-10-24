@@ -96,14 +96,17 @@ In the ring $R$, we have $h(t)=0$.
 ## Theorem 2
 
 Let $F$ be a field and let $h$ be a monic polynomial in $F[x]$ of degree $m \geq 1$. Then the factor ring $F[x] / \langle h \rangle$ is given by
+
 $$
 \frac{F[x]}{\langle h \rangle} = \{ a_0 + a_1 t + \cdots + a_{m-1} t^{m-1} \mid a_i \in F, h(t) = 0 \}.
 $$
 
 Moreover, this representation of the elements of $F[x] / \langle h \rangle$ is unique:
+
 $$
 a_0 + a_1 t + \cdots + a_{m-1} t^{m-1} = b_0 + b_1 t + \cdots b_{m-1} t^{m-1} 
 $$
+
 if and only if $a_i = b_i$ for each $i$.
 
 ---
@@ -121,12 +124,14 @@ if and only if $a_i = b_i$ for each $i$.
 ## Example 3
 
 This is example describes the ring $\mathbb Z_2[x] / \langle x^2 - 1 \rangle$. And it's described as $\mathbb Z_2[x] / \langle x^2 - 1 \rangle = \{ a + bt \mid a,b \in \mathbb Z_2[x], g^2 = 1 \}$. Notice that if we write $t=g$ because $t^2 = g^2 = 1$ we get the cyclic group $G = \{ 1,g \}$. Basically it's a linear combination of elements of $G$ with coefficients from $\mathbb Z_2$. Hence we call it the ***<u> FACTOR RING!!!! </u>*** and denote it as so:
+
 $$
 \mathbb Z_2 G = \{ a+bg \mid a,b \in \mathbb Z_2, g^2 = 1 \}.
 $$
 
 
 This can be generalized with any field $F$ and if $g^n = 1$ we write it as so:
+
 $$
 FG = \{ a_0 + a_1 g + \cdots + a_{n-1} g^{n-1} \mid a_i \in F, g^n = 1 \}.
 $$
